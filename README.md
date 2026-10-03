@@ -27,7 +27,7 @@ A explicação completa, passo a passo, está em **[METODOLOGIA.md](METODOLOGIA.
 ## Instalação
 
 ```bash
-git clone https://github.com/kairoxaioficial/apes-ia5k.git
+git clone https://github.com/ia5k/apes-ia5k.git
 cd apes-ia5k
 ./install.sh claude        # Claude Code: copia a skill e registra os hooks
 ./install.sh codex         # Codex: ~/.codex/skills/apes-ia5k

@@ -15,6 +15,6 @@
 - **Próxima etapa:** concluída. Veja a etapa 5 abaixo.
 
 ## Etapa 5 — Publicação (03/10/2026)
-- **Feito:** limpeza de `references/` (marca antiga removida, capítulo de deploy apagado, arquivo de contexto neutro); varredura final sem menções à marca antiga, sem dados pessoais e sem segredos; repositório público criado em https://github.com/kairoxaioficial/apes-ia5k.
+- **Feito:** limpeza de `references/` (marca antiga removida, capítulo de deploy apagado, arquivo de contexto neutro); varredura final sem menções à marca antiga, sem dados pessoais e sem segredos; repositório público criado em https://github.com/ia5k/apes-ia5k.
 - **Testes:** busca por marca antiga, caminhos pessoais e padrões de segredo: nada encontrado. `bash -n` em todos os scripts: OK.
 - **Próxima etapa:** nenhuma pendente.
