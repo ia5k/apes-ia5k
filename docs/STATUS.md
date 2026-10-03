@@ -18,3 +18,8 @@
 - **Feito:** limpeza de `references/` (marca antiga removida, capítulo de deploy apagado, arquivo de contexto neutro); varredura final sem menções à marca antiga, sem dados pessoais e sem segredos; repositório público criado em https://github.com/ia5k/apes-ia5k.
 - **Testes:** busca por marca antiga, caminhos pessoais e padrões de segredo: nada encontrado. `bash -n` em todos os scripts: OK.
 - **Próxima etapa:** nenhuma pendente.
+
+## Etapa 6 — Mudança para a conta ia5k (03/10/2026)
+- **Feito:** repositório público criado em https://github.com/ia5k/apes-ia5k com o histórico completo; link do README atualizado.
+- **Teste:** commit remoto `61c56b8` igual ao local. OK.
+- **Pendente:** apagar `kairoxaioficial/apes-ia5k` (falta a permissão `delete_repo` no token da conta kairoxaioficial).

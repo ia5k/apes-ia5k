@@ -9,3 +9,8 @@
 - **Sintoma:** o hook Stop bloqueou o encerramento dizendo que `docs/STATUS.md` não foi atualizado.
 - **Causa:** o STATUS foi escrito por comando de terminal, que o hook não registra (limite conhecido, documentado no SKILL.md).
 - **Correção:** atualizar `docs/STATUS.md` e `docs/ERROS.md` pela ferramenta de edição.
+
+## 03/10/2026 - Não foi possível apagar o repositório antigo
+- **Sintoma:** `gh repo delete kairoxaioficial/apes-ia5k` respondeu `HTTP 403: Must have admin rights to Repository`.
+- **Causa:** o token da conta kairoxaioficial não tem a permissão `delete_repo`.
+- **Correção:** rodar `gh auth refresh -h github.com -s delete_repo -u kairoxaioficial` e repetir a exclusão.
