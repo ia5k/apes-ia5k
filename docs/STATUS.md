@@ -12,4 +12,9 @@
   - Desativar com `/apes-ia5k off`: OK.
 - **Erros:** 2 registrados em `docs/ERROS.md` (gatilho por caminho; STATUS escrito por terminal).
 - **Documentos conferidos:** PRD.md e docs/FSD.md já descrevem a skill, o instalador e o arquivo de contexto (sem mudança). DECISOES_TECNICAS, INSUMOS e DESIGN não se aplicam a este repositório de skill (sem banco, sem variáveis de ambiente, sem interface).
-- **Próxima etapa:** aguardar a limpeza de `references/`, varredura final de menções e publicar o repositório público.
+- **Próxima etapa:** concluída. Veja a etapa 5 abaixo.
+
+## Etapa 5 — Publicação (03/10/2026)
+- **Feito:** limpeza de `references/` (marca antiga removida, capítulo de deploy apagado, arquivo de contexto neutro); varredura final sem menções à marca antiga, sem dados pessoais e sem segredos; repositório público criado em https://github.com/kairoxaioficial/apes-ia5k.
+- **Testes:** busca por marca antiga, caminhos pessoais e padrões de segredo: nada encontrado. `bash -n` em todos os scripts: OK.
+- **Próxima etapa:** nenhuma pendente.
