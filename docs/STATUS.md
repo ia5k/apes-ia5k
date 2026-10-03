@@ -22,4 +22,4 @@
 ## Etapa 6 — Mudança para a conta ia5k (03/10/2026)
 - **Feito:** repositório público criado em https://github.com/ia5k/apes-ia5k com o histórico completo; link do README atualizado.
 - **Teste:** commit remoto `61c56b8` igual ao local. OK.
-- **Pendente:** apagar `kairoxaioficial/apes-ia5k` (falta a permissão `delete_repo` no token da conta kairoxaioficial).
+- **Decisão do usuário:** em vez de apagar, `kairoxaioficial/apes-ia5k` passou a ser **privado** (confirmado: PRIVATE). O vínculo local com ele foi removido; o projeto envia só para `ia5k/apes-ia5k`.
